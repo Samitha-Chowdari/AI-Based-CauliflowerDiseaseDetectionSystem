@@ -1,37 +1,102 @@
-# 🥦 AI-Based Cauliflower Disease Detection System
+# 🥦 LeafGuardAI – AI-Based Cauliflower Disease Detection System
 
-This project is an AI-powered system developed to help farmers detect cauliflower leaf diseases using image analysis. The application can identify multiple diseases from uploaded plant images and provide prediction confidence scores using Machine Learning and Deep Learning models such as ANN, Logistic Regression, and a Hybrid InceptionResNet-LRC model.
+> 📌 Final Year Project
+> 🎤 Presented at ICETETAMS 2026
+> 📄 Research published in JSETMS
 
-The system also includes Explainable AI (XAI) support using the Gemini API to generate additional insights like disease severity, affected plant part, and crop-related analysis. Along with desktop-based prediction through a Tkinter GUI, the project also supports Telegram Bot integration, allowing farmers to send crop images directly through Telegram for remote disease detection.
+LeafGuardAI is an AI-powered desktop application developed to help identify cauliflower diseases from plant images using Machine Learning and Deep Learning techniques. The system predicts the disease, provides a confidence score, and generates AI-powered explanations to assist users in understanding the prediction.
 
-To improve security and usability, the project includes farmer/admin authentication, bcrypt password hashing, MySQL database integration for storing prediction history, and environment-variable protection for sensitive API keys. The main goal of this project is to build an intelligent, user-friendly, and practical agricultural assistance system for real-world crop disease monitoring.
+The application also integrates secure authentication, prediction history management, and Telegram Bot support to provide a practical and user-friendly crop disease diagnosis system.
 
-## ✨ Features
+---
 
-- AI-based cauliflower disease detection
-- Multi-model evaluation (LR, ANN, DTC, Hybrid IRCNN-LRC)
-- Explainable AI (XAI) analysis
-- Telegram Bot support
-- Batch image prediction
-- Prediction confidence scoring
-- Secure login/signup system
-- bcrypt password encryption
-- MySQL database integration
-- Prediction history storage
-- Tkinter GUI interface
+## ✨ Key Features
 
-## 🚀 Workflow
+* 🌱 Automated cauliflower disease detection from uploaded images
+* 🧠 Multi-model evaluation using Logistic Regression, ANN, Decision Tree, and a Hybrid InceptionResNet-LRC model
+* 🤖 Explainable AI (XAI) powered by Gemini API for disease insights and crop recommendations
+* 💬 Telegram Bot integration for remote image-based prediction
+* 📊 Prediction confidence scoring
+* 🔐 Secure farmer/admin authentication using bcrypt password hashing
+* 🗄️ MySQL database integration for storing prediction history
+* 🖥️ Desktop application built using Tkinter
+* 📂 Batch image prediction support
 
-Signup/Login
-    ↓
-Image Upload
-    ↓
-Preprocessing
-    ↓
-Model Prediction
-    ↓
-XAI Analysis
-    ↓
-Prediction Output
-    ↓
-Database Storage
+---
+
+## 🛠️ Tech Stack
+
+| Category         | Technologies                     |
+| ---------------- | -------------------------------- |
+| Programming      | Python                           |
+| Machine Learning | TensorFlow, Scikit-learn, OpenCV |
+| Data Processing  | NumPy, Pandas                    |
+| Desktop GUI      | Tkinter                          |
+| Database         | MySQL                            |
+| AI Services      | Gemini API                       |
+| Version Control  | Git, GitHub                      |
+
+---
+
+## 🔄 System Workflow
+
+```text
+User Login / Signup
+        ↓
+    Upload Image
+        ↓
+ Image Preprocessing
+        ↓
+ Disease Prediction
+        ↓
+ Confidence Score
+        ↓
+ Gemini AI Analysis
+        ↓
+ Prediction History
+        ↓
+ Telegram Bot Response (Optional)
+```
+
+---
+
+## 📸 Application Screenshots
+
+### 🔐 Login Page
+
+![Login Page](assets/login.png)
+
+### 🏠 Dashboard
+
+![Dashboard](assets/dashboard.png)
+
+### 🌱 Disease Prediction
+
+![Prediction](assets/prediction.png)
+
+### 🤖 Gemini AI Analysis
+
+![Gemini Analysis](assets/gemini_analysis.png)
+
+### 💬 Telegram Bot
+
+![Telegram Bot](assets/telegram_bot.png)
+
+---
+
+## 📄 Research & Presentation
+
+This project was:
+
+* 🎤 Presented at the **International Conference on Emerging Trends in Engineering, Technology & Applied Management Sciences (ICETETAMS 2026)**.
+* 📚 Associated with research published in the **Journal of Science Engineering Technology and Management Science (JSETMS)**.
+
+---
+
+## 🔮 Future Improvements
+
+* Support additional crop diseases
+* Cloud deployment for remote access
+* Mobile application development
+* Real-time field disease monitoring
+* Multilingual support for farmers
