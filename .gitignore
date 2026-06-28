@@ -9,8 +9,8 @@ __pycache__/
 *.pyc
 
 # Model Files
-model/*.h5
-model/*.pkl
+model/X.npy
+model/Y.npy
 
 # Generated Files
 results/*.csv
